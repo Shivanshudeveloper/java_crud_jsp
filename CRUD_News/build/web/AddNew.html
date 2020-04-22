@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add New</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add New</h1>
+        <div style="width: 900px; margin-left: auto; margin-right: auto;">
+            <form action="JSP/ManagerAddNew.jsp" method="POST"><br/>
+                Title:<br/>
+                <input type="text" name="title" value="" size="200" /><br/>
+
+                Description:<br/>
+                <input type="text" name="description" value="" size="200" /><br/>
+
+                Detail:<br/>
+                <textarea name="detail" style="width: 400px; height: 200px"></textarea><br/>
+
+                Category:<br/>
+                <select name="category">
+                    <option value="World">World</option>
+                    <option value="Tech">Tech</option>
+                    <option value="Sport">Tech</option>
+                    <option value="Music">Music</option>
+                </select>
+                <br/>
+
+                Image: <br/>
+                <input type="text" name="image" value="" size="200" /><br/>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>
